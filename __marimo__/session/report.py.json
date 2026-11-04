@@ -25,7 +25,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='42ab6d1f-d12b-c9dc-9286-df7dfb641806'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;n&#92;&quot;:35}]&quot;' data-total-rows='1' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;n&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='0edc3b9a-f2c2-30f5-be4f-2701640ec30a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;n&#92;&quot;:35}]&quot;' data-total-rows='1' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;n&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -38,7 +38,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='6ae26d79-b816-36dd-359e-c6bfcbc0c9a1'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;album&#92;&quot;:347,&#92;&quot;artist&#92;&quot;:275,&#92;&quot;customer&#92;&quot;:59,&#92;&quot;employee&#92;&quot;:8,&#92;&quot;genre&#92;&quot;:25,&#92;&quot;invoice&#92;&quot;:412,&#92;&quot;invoice_line&#92;&quot;:2240,&#92;&quot;media_type&#92;&quot;:5,&#92;&quot;playlist&#92;&quot;:18,&#92;&quot;playlist_track&#92;&quot;:8715,&#92;&quot;track&#92;&quot;:3503}]&quot;' data-total-rows='1' data-total-columns='11' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;album&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;artist&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;customer&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;employee&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;genre&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;invoice&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;invoice_line&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;media_type&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;playlist&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;playlist_track&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;track&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='f07daaef-151d-186e-41b2-bfc118b31e66'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;album&#92;&quot;:347,&#92;&quot;artist&#92;&quot;:275,&#92;&quot;customer&#92;&quot;:59,&#92;&quot;employee&#92;&quot;:8,&#92;&quot;genre&#92;&quot;:25,&#92;&quot;invoice&#92;&quot;:412,&#92;&quot;invoice_line&#92;&quot;:2240,&#92;&quot;media_type&#92;&quot;:5,&#92;&quot;playlist&#92;&quot;:18,&#92;&quot;playlist_track&#92;&quot;:8715,&#92;&quot;track&#92;&quot;:3503}]&quot;' data-total-rows='1' data-total-columns='11' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;album&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;artist&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;customer&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;employee&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;genre&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;invoice&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;invoice_line&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;media_type&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;playlist&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;playlist_track&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;track&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -64,7 +64,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='ea8b0ff1-9f12-c10c-0176-8d288467c75c'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;revenue&#92;&quot;:2328.6,&#92;&quot;n_invoices&#92;&quot;:412,&#92;&quot;average_invoice_value&#92;&quot;:5.651941747572815}]&quot;' data-total-rows='1' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;n_invoices&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;average_invoice_value&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='2711474a-b2f3-b7ea-97b1-244e8c2ab1af'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;revenue&#92;&quot;:2328.6,&#92;&quot;n_invoices&#92;&quot;:412,&#92;&quot;average_invoice_value&#92;&quot;:5.651941747572815}]&quot;' data-total-rows='1' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;n_invoices&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;average_invoice_value&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -103,7 +103,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='b02b04e2-63da-1fa5-efc1-75c7ba7a9208'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;year&#92;&quot;:&#92;&quot;2021-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:449.46,&#92;&quot;change&#92;&quot;:NaN},{&#92;&quot;year&#92;&quot;:&#92;&quot;2022-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:481.45,&#92;&quot;change&#92;&quot;:31.99},{&#92;&quot;year&#92;&quot;:&#92;&quot;2023-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:469.58,&#92;&quot;change&#92;&quot;:-11.87},{&#92;&quot;year&#92;&quot;:&#92;&quot;2024-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:477.53,&#92;&quot;change&#92;&quot;:7.95},{&#92;&quot;year&#92;&quot;:&#92;&quot;2025-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:450.58,&#92;&quot;change&#92;&quot;:-26.95}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;year&quot;,[&quot;datetime&quot;,&quot;datetime64[us]&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;change&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='53d8bd15-abb6-c045-96a6-f4d5cf433117'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;year&#92;&quot;:&#92;&quot;2021-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:449.46,&#92;&quot;change&#92;&quot;:NaN},{&#92;&quot;year&#92;&quot;:&#92;&quot;2022-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:481.45,&#92;&quot;change&#92;&quot;:31.99},{&#92;&quot;year&#92;&quot;:&#92;&quot;2023-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:469.58,&#92;&quot;change&#92;&quot;:-11.87},{&#92;&quot;year&#92;&quot;:&#92;&quot;2024-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:477.53,&#92;&quot;change&#92;&quot;:7.95},{&#92;&quot;year&#92;&quot;:&#92;&quot;2025-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:450.58,&#92;&quot;change&#92;&quot;:-26.95}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;year&quot;,[&quot;datetime&quot;,&quot;datetime64[us]&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;change&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -123,46 +123,124 @@
       "console": []
     },
     {
-      "id": "mcJY",
-      "code_hash": "d7fddb638c34f5fa9ae6a8de17d896f4",
+      "id": "RGSE",
+      "code_hash": "d26a724a6d4cc0f16fb449d9a7b7f2f7",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='mcJY-0' random-id='138656b6-9be5-c707-e793-2f2a2751fde1'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;country&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:523.06,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:40.24},{&#92;&quot;country&#92;&quot;:&#92;&quot;Canada&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:303.96,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:38.0},{&#92;&quot;country&#92;&quot;:&#92;&quot;France&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:195.1,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:39.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;Brazil&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:190.1,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:38.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:156.48,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:39.12}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;country&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;revenue_per_customer_per_country&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='RGSE-0' random-id='9b268cb3-1e5a-2bd7-f8c4-243fb7679573'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;country&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:523.06,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:40.24},{&#92;&quot;country&#92;&quot;:&#92;&quot;Canada&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:303.96,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:38.0},{&#92;&quot;country&#92;&quot;:&#92;&quot;France&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:195.1,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:39.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;Brazil&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:190.1,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:38.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:156.48,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:39.12}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;country&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;revenue_per_customer_per_country&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "BtyI",
+      "id": "Kclp",
       "code_hash": "a6848a2ec185fcba1aa933d730fac085",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='BtyI-0' random-id='b67268a3-5137-b001-b559-cd91ef2f4c37'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;customer_id&#92;&quot;:6,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:49.62},{&#92;&quot;customer_id&#92;&quot;:26,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Margaret Park&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:47.62},{&#92;&quot;customer_id&#92;&quot;:57,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:46.62},{&#92;&quot;customer_id&#92;&quot;:45,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:45.62},{&#92;&quot;customer_id&#92;&quot;:46,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:45.62},{&#92;&quot;customer_id&#92;&quot;:24,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_id&#92;&quot;:28,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_id&#92;&quot;:37,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_id&#92;&quot;:7,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:42.62},{&#92;&quot;customer_id&#92;&quot;:25,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:42.62}]&quot;' data-total-rows='10' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;customer_id&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;employee_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_spent&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='Kclp-0' random-id='9c15a5f2-9cfb-4126-36b9-a30a838a534f'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;customer_id&#92;&quot;:6,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:49.62},{&#92;&quot;customer_id&#92;&quot;:26,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Margaret Park&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:47.62},{&#92;&quot;customer_id&#92;&quot;:57,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:46.62},{&#92;&quot;customer_id&#92;&quot;:45,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:45.62},{&#92;&quot;customer_id&#92;&quot;:46,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:45.62},{&#92;&quot;customer_id&#92;&quot;:24,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_id&#92;&quot;:28,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_id&#92;&quot;:37,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_id&#92;&quot;:7,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:42.62},{&#92;&quot;customer_id&#92;&quot;:25,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:42.62}]&quot;' data-total-rows='10' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;customer_id&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;employee_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_spent&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "mpJV",
+      "id": "emfo",
       "code_hash": "77d3c37a3e2c20f7fe3daf0ecca2fd95",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='mpJV-0' random-id='ca3fc5dd-dc0c-124b-2934-f836cf7d6ef5'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;customer_type&#92;&quot;:&#92;&quot;Repeat customer&#92;&quot;,&#92;&quot;n_customers&#92;&quot;:59,&#92;&quot;total_revenue&#92;&quot;:2328.6,&#92;&quot;revenue_share_pct&#92;&quot;:100.0}]&quot;' data-total-rows='1' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;customer_type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;n_customers&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;revenue_share_pct&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='emfo-0' random-id='b38fe2b4-933d-aaa2-eeec-951dd739e769'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;customer_type&#92;&quot;:&#92;&quot;Repeat customer&#92;&quot;,&#92;&quot;n_customers&#92;&quot;:59,&#92;&quot;total_revenue&#92;&quot;:2328.6,&#92;&quot;revenue_share_pct&#92;&quot;:100.0}]&quot;' data-total-rows='1' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;customer_type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;n_customers&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;revenue_share_pct&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "RGSE",
+      "id": "Hstk",
+      "code_hash": "43554f87f3f51b2376e35070559bae07",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">CATALOGUE</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "7cbdf8c9e4e64e78e1ce98218f03d5c3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='nWHF-0' random-id='ec154a4c-166f-8ff8-e0c9-63d3f6ec27dc'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;revenue&#92;&quot;:826.65,&#92;&quot;n_tracks&#92;&quot;:835},{&#92;&quot;name&#92;&quot;:&#92;&quot;Latin&#92;&quot;,&#92;&quot;revenue&#92;&quot;:382.14,&#92;&quot;n_tracks&#92;&quot;:386},{&#92;&quot;name&#92;&quot;:&#92;&quot;Metal&#92;&quot;,&#92;&quot;revenue&#92;&quot;:261.36,&#92;&quot;n_tracks&#92;&quot;:264},{&#92;&quot;name&#92;&quot;:&#92;&quot;Alternative &amp; Punk&#92;&quot;,&#92;&quot;revenue&#92;&quot;:241.56,&#92;&quot;n_tracks&#92;&quot;:244},{&#92;&quot;name&#92;&quot;:&#92;&quot;TV Shows&#92;&quot;,&#92;&quot;revenue&#92;&quot;:93.53,&#92;&quot;n_tracks&#92;&quot;:47},{&#92;&quot;name&#92;&quot;:&#92;&quot;Jazz&#92;&quot;,&#92;&quot;revenue&#92;&quot;:79.2,&#92;&quot;n_tracks&#92;&quot;:80},{&#92;&quot;name&#92;&quot;:&#92;&quot;Blues&#92;&quot;,&#92;&quot;revenue&#92;&quot;:60.39,&#92;&quot;n_tracks&#92;&quot;:61},{&#92;&quot;name&#92;&quot;:&#92;&quot;Drama&#92;&quot;,&#92;&quot;revenue&#92;&quot;:57.71,&#92;&quot;n_tracks&#92;&quot;:29},{&#92;&quot;name&#92;&quot;:&#92;&quot;R&amp;B/Soul&#92;&quot;,&#92;&quot;revenue&#92;&quot;:40.59,&#92;&quot;n_tracks&#92;&quot;:41},{&#92;&quot;name&#92;&quot;:&#92;&quot;Classical&#92;&quot;,&#92;&quot;revenue&#92;&quot;:40.59,&#92;&quot;n_tracks&#92;&quot;:41}]&quot;' data-total-rows='24' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;n_tracks&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "1390c149b736709d43aa7667699b7a54",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='iLit-0' random-id='60bfab14-3241-20ee-5aac-22e93f627f7a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;Iron Maiden&#92;&quot;,&#92;&quot;revenue&#92;&quot;:138.6},{&#92;&quot;name&#92;&quot;:&#92;&quot;U2&#92;&quot;,&#92;&quot;revenue&#92;&quot;:105.93},{&#92;&quot;name&#92;&quot;:&#92;&quot;Metallica&#92;&quot;,&#92;&quot;revenue&#92;&quot;:90.09},{&#92;&quot;name&#92;&quot;:&#92;&quot;Led Zeppelin&#92;&quot;,&#92;&quot;revenue&#92;&quot;:86.13},{&#92;&quot;name&#92;&quot;:&#92;&quot;Lost&#92;&quot;,&#92;&quot;revenue&#92;&quot;:81.59},{&#92;&quot;name&#92;&quot;:&#92;&quot;The Office&#92;&quot;,&#92;&quot;revenue&#92;&quot;:49.75},{&#92;&quot;name&#92;&quot;:&#92;&quot;Os Paralamas Do Sucesso&#92;&quot;,&#92;&quot;revenue&#92;&quot;:44.55},{&#92;&quot;name&#92;&quot;:&#92;&quot;Deep Purple&#92;&quot;,&#92;&quot;revenue&#92;&quot;:43.56},{&#92;&quot;name&#92;&quot;:&#92;&quot;Faith No More&#92;&quot;,&#92;&quot;revenue&#92;&quot;:41.58},{&#92;&quot;name&#92;&quot;:&#92;&quot;Eric Clapton&#92;&quot;,&#92;&quot;revenue&#92;&quot;:39.6}]&quot;' data-total-rows='10' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "7042a24756f62bcee2f93b96687bf9c0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='ZHCJ-0' random-id='26ca5218-49a5-9726-762b-00b7447fafa7'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;Battlestar Galactica&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Battlestar Galactica: The Story So Far&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Cake&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Cake: B-Sides and Rarities&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Aisha Duo&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Quiet Songs&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Karsh Kale&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Realize&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Aaron Goldberg&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Worlds&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Nicolaus Esterhazy Sinfonia&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;The Best of Beethoven&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Alberto Turco &amp; Nova Schola Gregoriana&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Adorate Deum: Gregorian Chant from the Proper of the Mass&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Richard Marlow &amp; The Choir of Trinity College, Cambridge&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Allegri: Miserere&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Anne-Sophie Mutter, Herbert Von Karajan &amp; Wiener Philharmoniker&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Vivaldi: The Four Seasons&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Hilary Hahn, Jeffrey Kahane, Los Angeles Chamber Orchestra &amp; Margaret Batjer&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Bach: Violin Concertos&#92;&quot;}]&quot;' data-total-rows='43' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;title&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "ed20727c766ab375b699fba394127d74",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='ROlb-0' random-id='ee11dc37-31e9-d4df-452e-d702a2848586'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;genre&#92;&quot;:&#92;&quot;Science Fiction&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;The Woman King&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Comedy&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Phyllis&#x27;s Wedding&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Drama&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;How to Stop an Exploding Man&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;TV Shows&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Walkabout&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Eruption&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.96},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Metal&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Where Eagles Dare&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:2.97},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Latin&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Selvagem&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:2.97},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Alternative &amp; Punk&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Release&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:2.97},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Sci Fi &amp; Fantasy&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;The Magnificent Warriors&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:1.99},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Hip Hop/Rap&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Nega Do Cabelo Duro&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:1.98}]&quot;' data-total-rows='24' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;genre&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;track_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "fXpj",
+      "code_hash": null,
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
       "code_hash": "96af9d64eee22e599dc2fd29ee6175c4",
       "outputs": [
         {
@@ -175,9 +253,16 @@
       "console": []
     },
     {
-      "id": "Kclp",
+      "id": "TqIu",
       "code_hash": null,
-      "outputs": [],
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     }
   ]

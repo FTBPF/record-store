@@ -184,6 +184,92 @@ def _(query):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
+    CATALOGUE
+    """)
+    return
+
+
+@app.cell(hide_code=True)
+def _(query):
+    query("""
+    select
+    	g."name",
+    	sum(il.unit_price * il.quantity) as revenue,
+    	sum(il.quantity) as n_tracks
+    from invoice_line il
+    join track t on t.track_id = il.track_id 
+    join genre g on g.genre_id = t.genre_id 
+    group by g.genre_id   
+    order by revenue desc
+    """)
+    return
+
+
+@app.cell(hide_code=True)
+def _(query):
+    query("""
+    select 
+    	a2."name",
+    	sum(il.unit_price * il.quantity) as revenue
+    from track t
+    join album a on t.album_id = a.album_id 
+    join artist a2 on a2.artist_id = a.artist_id
+    join invoice_line il on il.track_id = t.track_id
+    group by a2."name" 
+    order by revenue desc
+    limit 10
+    """)
+    return
+
+
+@app.cell(hide_code=True)
+def _(query):
+    query("""
+    select 
+    	a."name",
+    	a2.title
+    from artist a
+    join album a2 on a2.artist_id = a.artist_id 
+    left join (
+    	select distinct t.album_id
+    	from track t
+    	join invoice_line il on il.track_id = t.track_id 
+    ) sold_albums on a2.album_id = sold_albums.album_id 
+    where sold_albums.album_id is null
+    """)
+    return
+
+
+@app.cell(hide_code=True)
+def _(query):
+    query("""
+    with ranked_genre_titles as (
+    	select
+    		g."name" as genre,
+    		t."name" as track_name,
+    		sum(il.quantity * il.unit_price ) as total_revenue,
+    		row_number() over (partition by t.genre_id order by sum(il.quantity * il.unit_price) desc) as rn
+    	from genre g
+    	join track t on t.genre_id = g.genre_id 
+    	join invoice_line il on il.track_id = t.track_id 
+    	group by t.genre_id, g."name" , t."name" 
+    )
+    select rgt.genre, rgt.track_name, rgt.total_revenue 
+    from ranked_genre_titles rgt
+    where rn = 1
+    order by rgt.total_revenue desc
+    """)
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
     ACCEPTANCE
 
     How much has the store sold, in total and per year? Is it growing?
