@@ -6,39 +6,13 @@
   },
   "cells": [
     {
-      "id": "Hbol",
-      "code_hash": "71d5691519591be79247e406d1f213b1",
+      "id": "HjNi",
+      "code_hash": "2e482ba08a1b78f65f3778a4a6d8248d",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "MJUe",
-      "code_hash": "4c1aa0d154d0df061d09929f315d78a5",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='0edc3b9a-f2c2-30f5-be4f-2701640ec30a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;n&#92;&quot;:35}]&quot;' data-total-rows='1' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;n&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "vblA",
-      "code_hash": "b2b9bae908edf3eb1b72256379125ab1",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='f07daaef-151d-186e-41b2-bfc118b31e66'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;album&#92;&quot;:347,&#92;&quot;artist&#92;&quot;:275,&#92;&quot;customer&#92;&quot;:59,&#92;&quot;employee&#92;&quot;:8,&#92;&quot;genre&#92;&quot;:25,&#92;&quot;invoice&#92;&quot;:412,&#92;&quot;invoice_line&#92;&quot;:2240,&#92;&quot;media_type&#92;&quot;:5,&#92;&quot;playlist&#92;&quot;:18,&#92;&quot;playlist_track&#92;&quot;:8715,&#92;&quot;track&#92;&quot;:3503}]&quot;' data-total-rows='1' data-total-columns='11' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;album&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;artist&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;customer&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;employee&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;genre&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;invoice&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;invoice_line&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;media_type&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;playlist&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;playlist_track&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;track&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"executive-summary\">Executive Summary</h1>\n<h2 id=\"this-report-analyses-the-record-stores-sales-customer-base-and-catalogue-performance-using-the-chinook-database\">This report analyses the record store's sales, customer base, and catalogue performance using the Chinook database.</h2>\n<div class=\"language-gdscript highlight\"><pre><span></span><code><span class=\"n\">Key</span><span class=\"w\"> </span><span class=\"n\">Findings</span><span class=\"p\">:</span>\n\n<span class=\"w\">    </span><span class=\"o\">*</span><span class=\"w\"> </span><span class=\"n\">Sales</span><span class=\"w\"> </span><span class=\"n\">Overview</span><span class=\"p\">:</span>\n<span class=\"w\">        </span><span class=\"n\">The</span><span class=\"w\"> </span><span class=\"n\">store</span><span class=\"w\"> </span><span class=\"n\">has</span><span class=\"w\"> </span><span class=\"n\">sold</span><span class=\"w\"> </span><span class=\"mi\">412</span><span class=\"w\"> </span><span class=\"n\">tracks</span><span class=\"w\"> </span><span class=\"n\">over</span><span class=\"w\"> </span><span class=\"n\">the</span><span class=\"w\"> </span><span class=\"n\">years</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"n\">generating</span><span class=\"w\"> </span><span class=\"o\">$</span><span class=\"mi\">2328</span><span class=\"p\">,</span><span class=\"mi\">6</span><span class=\"w\"> </span><span class=\"ow\">in</span><span class=\"w\"> </span><span class=\"n\">total</span><span class=\"w\"> </span><span class=\"n\">revenue</span><span class=\"o\">.</span><span class=\"w\"> </span>\n<span class=\"w\">        </span><span class=\"n\">Looking</span><span class=\"w\"> </span><span class=\"n\">at</span><span class=\"w\"> </span><span class=\"n\">the</span><span class=\"w\"> </span><span class=\"n\">revenue</span><span class=\"w\"> </span><span class=\"n\">month</span><span class=\"w\"> </span><span class=\"n\">by</span><span class=\"w\"> </span><span class=\"n\">month</span><span class=\"w\"> </span><span class=\"ow\">and</span><span class=\"w\"> </span><span class=\"n\">year</span><span class=\"w\"> </span><span class=\"n\">by</span><span class=\"w\"> </span><span class=\"n\">year</span><span class=\"w\"> </span><span class=\"n\">it</span><span class=\"w\"> </span><span class=\"n\">can</span><span class=\"w\"> </span><span class=\"n\">be</span><span class=\"w\"> </span><span class=\"n\">observed</span><span class=\"w\"> </span><span class=\"n\">that</span><span class=\"w\"> </span><span class=\"n\">the</span><span class=\"w\"> </span><span class=\"n\">revenue</span><span class=\"w\"> </span><span class=\"k\">is</span><span class=\"w\"> </span><span class=\"n\">constant</span><span class=\"p\">,</span><span class=\"w\"> </span>\n<span class=\"w\">            </span><span class=\"n\">even</span><span class=\"w\"> </span><span class=\"n\">tho</span><span class=\"w\"> </span><span class=\"n\">there</span><span class=\"w\"> </span><span class=\"n\">can</span><span class=\"w\"> </span><span class=\"n\">also</span><span class=\"w\"> </span><span class=\"n\">be</span><span class=\"w\"> </span><span class=\"n\">seen</span><span class=\"w\"> </span><span class=\"n\">some</span><span class=\"w\"> </span><span class=\"n\">spikes</span><span class=\"w\"> </span><span class=\"ow\">and</span><span class=\"w\"> </span><span class=\"n\">dips</span><span class=\"o\">.</span>\n\n<span class=\"w\">    </span><span class=\"o\">*</span><span class=\"w\"> </span><span class=\"n\">Customers</span><span class=\"w\"> </span><span class=\"o\">&amp;</span><span class=\"w\"> </span><span class=\"n\">Countries</span><span class=\"p\">:</span><span class=\"w\"> </span>\n<span class=\"w\">        </span><span class=\"n\">Revenue</span><span class=\"w\"> </span><span class=\"k\">is</span><span class=\"w\"> </span><span class=\"n\">concentrated</span><span class=\"w\"> </span><span class=\"ow\">in</span><span class=\"w\"> </span><span class=\"n\">a</span><span class=\"w\"> </span><span class=\"n\">handful</span><span class=\"w\"> </span><span class=\"n\">of</span><span class=\"w\"> </span><span class=\"n\">countries</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"ow\">and</span><span class=\"w\"> </span><span class=\"n\">a</span><span class=\"w\"> </span><span class=\"n\">small</span><span class=\"w\"> </span><span class=\"n\">group</span><span class=\"w\"> </span><span class=\"n\">of</span><span class=\"w\"> </span><span class=\"n\">top</span><span class=\"o\">-</span><span class=\"n\">spending</span><span class=\"w\"> </span><span class=\"n\">customers</span><span class=\"w\"> </span><span class=\"n\">accounts</span><span class=\"w\"> </span><span class=\"k\">for</span><span class=\"w\"> </span><span class=\"n\">a</span><span class=\"w\"> </span>\n<span class=\"w\">            </span><span class=\"n\">disproportionate</span><span class=\"w\"> </span><span class=\"n\">share</span><span class=\"w\"> </span><span class=\"n\">of</span><span class=\"w\"> </span><span class=\"n\">sales</span><span class=\"o\">.</span><span class=\"w\"> </span>\n<span class=\"w\">        </span><span class=\"n\">Repeat</span><span class=\"w\"> </span><span class=\"n\">customers</span><span class=\"w\"> </span><span class=\"n\">bring</span><span class=\"w\"> </span><span class=\"ow\">in</span><span class=\"w\"> </span><span class=\"n\">all</span><span class=\"w\"> </span><span class=\"n\">the</span><span class=\"w\"> </span><span class=\"n\">revenue</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"n\">which</span><span class=\"w\"> </span><span class=\"n\">says</span><span class=\"w\"> </span><span class=\"n\">something</span><span class=\"w\"> </span><span class=\"n\">about</span><span class=\"w\"> </span><span class=\"n\">where</span><span class=\"w\"> </span><span class=\"n\">the</span><span class=\"w\"> </span><span class=\"n\">store</span><span class=\"s1\">'s loyalty and its growth </span>\n<span class=\"w\">            </span><span class=\"n\">opportunity</span><span class=\"w\"> </span><span class=\"n\">lies</span><span class=\"o\">.</span>\n<span class=\"w\">        </span><span class=\"n\">Rock</span><span class=\"w\"> </span><span class=\"k\">is</span><span class=\"w\"> </span><span class=\"n\">the</span><span class=\"w\"> </span><span class=\"n\">most</span><span class=\"w\"> </span><span class=\"n\">bought</span><span class=\"w\"> </span><span class=\"n\">genre</span><span class=\"w\"> </span><span class=\"n\">from</span><span class=\"w\"> </span><span class=\"n\">each</span><span class=\"w\"> </span><span class=\"n\">country</span><span class=\"w\"> </span><span class=\"n\">with</span><span class=\"w\"> </span><span class=\"n\">the</span><span class=\"w\"> </span><span class=\"n\">exception</span><span class=\"w\"> </span><span class=\"n\">of</span><span class=\"w\"> </span><span class=\"n\">Sweden</span><span class=\"w\"> </span><span class=\"n\">who</span><span class=\"w\"> </span><span class=\"n\">prefer</span><span class=\"w\"> </span><span class=\"n\">Latin</span><span class=\"o\">.</span>\n\n<span class=\"w\">    </span><span class=\"o\">*</span><span class=\"w\"> </span><span class=\"n\">Catalogue</span><span class=\"p\">:</span><span class=\"w\"> </span>\n<span class=\"w\">        </span><span class=\"n\">A</span><span class=\"w\"> </span><span class=\"n\">few</span><span class=\"w\"> </span><span class=\"n\">genres</span><span class=\"w\"> </span><span class=\"ow\">and</span><span class=\"w\"> </span><span class=\"n\">artists</span><span class=\"w\"> </span><span class=\"n\">drive</span><span class=\"w\"> </span><span class=\"n\">most</span><span class=\"w\"> </span><span class=\"n\">of</span><span class=\"w\"> </span><span class=\"n\">the</span><span class=\"w\"> </span><span class=\"n\">sales</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"k\">while</span><span class=\"w\"> </span><span class=\"n\">some</span><span class=\"w\"> </span><span class=\"n\">albums</span><span class=\"w\"> </span><span class=\"n\">have</span><span class=\"w\"> </span><span class=\"n\">never</span><span class=\"w\"> </span><span class=\"n\">sold</span><span class=\"w\"> </span><span class=\"n\">a</span><span class=\"w\"> </span><span class=\"n\">single</span><span class=\"w\"> </span><span class=\"n\">track</span><span class=\"o\">.</span>\n\n<span class=\"w\">    </span><span class=\"o\">*</span><span class=\"w\"> </span><span class=\"n\">Sales</span><span class=\"w\"> </span><span class=\"n\">Team</span><span class=\"p\">:</span><span class=\"w\"> </span>\n<span class=\"w\">        </span><span class=\"n\">Revenue</span><span class=\"w\"> </span><span class=\"n\">per</span><span class=\"w\"> </span><span class=\"n\">support</span><span class=\"w\"> </span><span class=\"n\">rep</span><span class=\"w\"> </span><span class=\"n\">shifts</span><span class=\"w\"> </span><span class=\"n\">from</span><span class=\"w\"> </span><span class=\"n\">year</span><span class=\"w\"> </span><span class=\"n\">to</span><span class=\"w\"> </span><span class=\"n\">year</span><span class=\"p\">,</span><span class=\"w\"> </span><span class=\"n\">with</span><span class=\"w\"> </span><span class=\"n\">different</span><span class=\"w\"> </span><span class=\"n\">reps</span><span class=\"w\"> </span><span class=\"n\">leading</span><span class=\"w\"> </span><span class=\"ow\">in</span><span class=\"w\"> </span><span class=\"n\">different</span><span class=\"w\"> </span><span class=\"n\">years</span><span class=\"w\"> </span><span class=\"ow\">and</span><span class=\"w\"> </span><span class=\"n\">that</span><span class=\"w\"> </span><span class=\"n\">shows</span>\n\n<span class=\"w\">            </span><span class=\"n\">that</span><span class=\"w\"> </span><span class=\"n\">every</span><span class=\"w\"> </span><span class=\"n\">rep</span><span class=\"w\"> </span><span class=\"n\">has</span><span class=\"w\"> </span><span class=\"n\">a</span><span class=\"w\"> </span><span class=\"n\">similiar</span><span class=\"w\"> </span><span class=\"n\">revenue</span><span class=\"w\"> </span><span class=\"n\">amount</span><span class=\"w\"> </span><span class=\"n\">brought</span><span class=\"w\"> </span><span class=\"n\">to</span><span class=\"w\"> </span><span class=\"n\">the</span><span class=\"w\"> </span><span class=\"n\">store</span><span class=\"o\">.</span>\n</code></pre></div></span>"
           }
         }
       ],
@@ -46,12 +20,25 @@
     },
     {
       "id": "bkHC",
-      "code_hash": "21bdc731f91eca066c7ad7029afb4215",
+      "code_hash": "b7d1093c2b05bf7cd3eaae0c578ddffc",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Sales Overview</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"sales-overview\">Sales Overview</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qsUt",
+      "code_hash": "ebc9f737a359e59000d79484dac7f981",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-total-revenue-of-the-store-the-number-of-invoices-made-and-the-average-invoice-amount\">This table shows the total revenue of the store, the number of invoices made and the average invoice amount.</h3></span>"
           }
         }
       ],
@@ -59,12 +46,38 @@
     },
     {
       "id": "lEQa",
-      "code_hash": "b34bb36c0a49685a3b9b2a754d62b7b9",
+      "code_hash": "daffb8399098e478533e01c484d25bac",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='2711474a-b2f3-b7ea-97b1-244e8c2ab1af'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;revenue&#92;&quot;:2328.6,&#92;&quot;n_invoices&#92;&quot;:412,&#92;&quot;average_invoice_value&#92;&quot;:5.651941747572815}]&quot;' data-total-rows='1' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;n_invoices&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;average_invoice_value&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='16f8ec70-103b-8c5d-92d5-74e530be8074'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Total Revenue&#92;&quot;:2328.6,&#92;&quot;Number of Invoices&#92;&quot;:412,&#92;&quot;Average Invoice Value&#92;&quot;:5.65}]&quot;' data-total-rows='1' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Total Revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Number of Invoices&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Average Invoice Value&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DXLW",
+      "code_hash": "8f19a3372186c54420070f5fd389c5d8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-bar-chart-shows-the-monthly-revenue-per-month-up-until-the-selected-month-and-year-below\">This bar chart shows the monthly revenue per month up until the selected month and year below.</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "tcrn",
+      "code_hash": "1c9e6483d8ebfe4208f261c240a504ce",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Show data up to: <marimo-ui-element object-id='tcrn-1' random-id='6104ed71-48b7-fc14-fdee-810b13fdd055'><marimo-dropdown data-initial-value='[&quot;December&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eMonth: &#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element> <marimo-ui-element object-id='tcrn-0' random-id='d917a807-782c-8d5d-532d-9a0ce722ae98'><marimo-dropdown data-initial-value='[&quot;2025&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eYear: &#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;2021&quot;,&quot;2022&quot;,&quot;2023&quot;,&quot;2024&quot;,&quot;2025&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element></span></span>"
           }
         }
       ],
@@ -72,20 +85,7 @@
     },
     {
       "id": "PKri",
-      "code_hash": "e527ec53fc6c3a371fb7ff7cb8393500",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "Xref",
-      "code_hash": "28dbca7c91e519f5c032edbb223c8e76",
+      "code_hash": "713d0078d77432af105a9cea266e009b",
       "outputs": [
         {
           "type": "data",
@@ -97,13 +97,26 @@
       "console": []
     },
     {
-      "id": "SFPL",
-      "code_hash": "d26224df6d9cadc510ba97a6b3cfdd15",
+      "id": "acWV",
+      "code_hash": "d187c70be7f1556325658e3203ec6ac7",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='53d8bd15-abb6-c045-96a6-f4d5cf433117'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;year&#92;&quot;:&#92;&quot;2021-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:449.46,&#92;&quot;change&#92;&quot;:NaN},{&#92;&quot;year&#92;&quot;:&#92;&quot;2022-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:481.45,&#92;&quot;change&#92;&quot;:31.99},{&#92;&quot;year&#92;&quot;:&#92;&quot;2023-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:469.58,&#92;&quot;change&#92;&quot;:-11.87},{&#92;&quot;year&#92;&quot;:&#92;&quot;2024-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:477.53,&#92;&quot;change&#92;&quot;:7.95},{&#92;&quot;year&#92;&quot;:&#92;&quot;2025-01-01 00:00:00&#92;&quot;,&#92;&quot;revenue&#92;&quot;:450.58,&#92;&quot;change&#92;&quot;:-26.95}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;year&quot;,[&quot;datetime&quot;,&quot;datetime64[us]&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;change&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-yearly-revenue-of-the-store-and-the-growth-in-revenue\">This table shows the yearly revenue of the store and the growth in revenue</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "4768835d4bf18be881b266a3754779b2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='7ebd7111-892f-3d05-46c1-5e41a718ebc0'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;year&#92;&quot;:2021.0,&#92;&quot;revenue&#92;&quot;:449.46,&#92;&quot;change&#92;&quot;:NaN},{&#92;&quot;year&#92;&quot;:2022.0,&#92;&quot;revenue&#92;&quot;:481.45,&#92;&quot;change&#92;&quot;:31.99},{&#92;&quot;year&#92;&quot;:2023.0,&#92;&quot;revenue&#92;&quot;:469.58,&#92;&quot;change&#92;&quot;:-11.87},{&#92;&quot;year&#92;&quot;:2024.0,&#92;&quot;revenue&#92;&quot;:477.53,&#92;&quot;change&#92;&quot;:7.95},{&#92;&quot;year&#92;&quot;:2025.0,&#92;&quot;revenue&#92;&quot;:450.58,&#92;&quot;change&#92;&quot;:-26.95}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;year&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;change&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -111,12 +124,51 @@
     },
     {
       "id": "BYtC",
-      "code_hash": "190e30682a40be44732b0b91316d211c",
+      "code_hash": "3019aae4cabd15e6f302c678500b7361",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">CUSTOMERS AND COUNTRIES</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"customers-and-countries\">CUSTOMERS AND COUNTRIES</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pHyq",
+      "code_hash": "9a0ef1d9ef0ca8d28a89773c63d68d0c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-most-bought-genre-from-each-country\">This table shows the most bought genre from each country.</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "GJbF",
+      "code_hash": "a611ae909d88edb60e86d2ee4ce5bc3a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='GJbF-0' random-id='b23e9a6b-8806-638d-346b-3b107c74ebc9'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;country&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:157,&#92;&quot;total_revenue&#92;&quot;:1526.14},{&#92;&quot;country&#92;&quot;:&#92;&quot;Canada&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:107,&#92;&quot;total_revenue&#92;&quot;:989.03},{&#92;&quot;country&#92;&quot;:&#92;&quot;Brazil&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:81,&#92;&quot;total_revenue&#92;&quot;:691.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;France&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:65,&#92;&quot;total_revenue&#92;&quot;:525.73},{&#92;&quot;country&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:62,&#92;&quot;total_revenue&#92;&quot;:577.17},{&#92;&quot;country&#92;&quot;:&#92;&quot;United Kingdom&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:37,&#92;&quot;total_revenue&#92;&quot;:333.63},{&#92;&quot;country&#92;&quot;:&#92;&quot;Portugal&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:31,&#92;&quot;total_revenue&#92;&quot;:289.14},{&#92;&quot;country&#92;&quot;:&#92;&quot;India&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:25,&#92;&quot;total_revenue&#92;&quot;:242.55},{&#92;&quot;country&#92;&quot;:&#92;&quot;Czech Republic&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:25,&#92;&quot;total_revenue&#92;&quot;:226.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;Spain&#92;&quot;,&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;Number of Tracks Sold&#92;&quot;:22,&#92;&quot;total_revenue&#92;&quot;:201.96}]&quot;' data-total-rows='24' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;country&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;genre&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Number of Tracks Sold&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "oDBf",
+      "code_hash": "31bda7641ea20ea28abc317807973e97",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-revenue-per-country-and-the-average-revenue-per-customer-in-each-country\">This table shows the Revenue per country and the average revenue per customer in each country.</h3></span>"
           }
         }
       ],
@@ -124,12 +176,38 @@
     },
     {
       "id": "RGSE",
-      "code_hash": "d26a724a6d4cc0f16fb449d9a7b7f2f7",
+      "code_hash": "b33134760370f32394367c55061ba289",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='RGSE-0' random-id='9b268cb3-1e5a-2bd7-f8c4-243fb7679573'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;country&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:523.06,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:40.24},{&#92;&quot;country&#92;&quot;:&#92;&quot;Canada&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:303.96,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:38.0},{&#92;&quot;country&#92;&quot;:&#92;&quot;France&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:195.1,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:39.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;Brazil&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:190.1,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:38.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:156.48,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:39.12}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;country&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;revenue_per_customer_per_country&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='RGSE-0' random-id='2ba90efc-e843-c114-c7cb-853477a6eb5b'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;country&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:523.06,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:40.24},{&#92;&quot;country&#92;&quot;:&#92;&quot;Canada&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:303.96,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:38.0},{&#92;&quot;country&#92;&quot;:&#92;&quot;France&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:195.1,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:39.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;Brazil&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:190.1,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:38.02},{&#92;&quot;country&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:156.48,&#92;&quot;revenue_per_customer_per_country&#92;&quot;:39.12}]&quot;' data-total-rows='5' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;country&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;revenue_per_customer_per_country&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "wwCQ",
+      "code_hash": "1eb33bc5a6c963ad455e9cd6215df8b1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "CnWx",
+      "code_hash": "cc12c13efb8b7a7cbe8ad765c4c17275",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-top-10-customers-who-spent-the-most-money-and-their-employees-name\">This table shows the top 10 customers who spent the most money and their employee's name.</h3></span><marimo-ui-element object-id='wwCQ-0' random-id='cdc29a67-6961-f344-326e-8d8dbe96d8b3'><marimo-slider data-initial-value='10' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eNumber of customers to show: &#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='1' data-stop='50' data-step='1' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div>"
           }
         }
       ],
@@ -137,12 +215,25 @@
     },
     {
       "id": "Kclp",
-      "code_hash": "a6848a2ec185fcba1aa933d730fac085",
+      "code_hash": "83909f06fbb80e9c650a4a60c03f8aea",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='Kclp-0' random-id='9c15a5f2-9cfb-4126-36b9-a30a838a534f'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;customer_id&#92;&quot;:6,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:49.62},{&#92;&quot;customer_id&#92;&quot;:26,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Margaret Park&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:47.62},{&#92;&quot;customer_id&#92;&quot;:57,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:46.62},{&#92;&quot;customer_id&#92;&quot;:45,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:45.62},{&#92;&quot;customer_id&#92;&quot;:46,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:45.62},{&#92;&quot;customer_id&#92;&quot;:24,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_id&#92;&quot;:28,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_id&#92;&quot;:37,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_id&#92;&quot;:7,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:42.62},{&#92;&quot;customer_id&#92;&quot;:25,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:42.62}]&quot;' data-total-rows='10' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;customer_id&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;employee_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_spent&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='Kclp-0' random-id='338ed7e0-d8b5-a403-5fa1-390e147f7813'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Helena Hol&#92;&#92;u00fd&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:49.62},{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Richard Cunningham&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Margaret Park&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:47.62},{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Luis Rojas&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:46.62},{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Ladislav Kov&#92;&#92;u00e1cs&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:45.62},{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Hugh O&#x27;Reilly&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:45.62},{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Fynn Zimmermann&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Frank Ralston&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Julia Barnett&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:43.62},{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Victor Stevens&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:42.62},{&#92;&quot;customer_name&#92;&quot;:&#92;&quot;Astrid Gruber&#92;&quot;,&#92;&quot;employee_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;total_spent&#92;&quot;:42.62}]&quot;' data-total-rows='10' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;customer_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;employee_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_spent&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xEVE",
+      "code_hash": "512feccb5d0a18d5bccc033ef2ebaa2b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-number-of-one-time-and-repeated-customers-their-total-revenue-and-share-percentage\">This table shows the number of one-time and repeated customers, their total revenue and share percentage.</h3></span>"
           }
         }
       ],
@@ -150,12 +241,12 @@
     },
     {
       "id": "emfo",
-      "code_hash": "77d3c37a3e2c20f7fe3daf0ecca2fd95",
+      "code_hash": "b9a517c963ec7331aa0684658539f046",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='emfo-0' random-id='b38fe2b4-933d-aaa2-eeec-951dd739e769'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;customer_type&#92;&quot;:&#92;&quot;Repeat customer&#92;&quot;,&#92;&quot;n_customers&#92;&quot;:59,&#92;&quot;total_revenue&#92;&quot;:2328.6,&#92;&quot;revenue_share_pct&#92;&quot;:100.0}]&quot;' data-total-rows='1' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;customer_type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;n_customers&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;revenue_share_pct&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='emfo-0' random-id='1125ee6c-f215-fa7d-340d-9bfce853bbb9'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;customer_type&#92;&quot;:&#92;&quot;One-time customer&#92;&quot;,&#92;&quot;Number of Customers&#92;&quot;:0,&#92;&quot;total_revenue&#92;&quot;:0.0,&#92;&quot;Revenue Share Percentage&#92;&quot;:0.0},{&#92;&quot;customer_type&#92;&quot;:&#92;&quot;Repeat customer&#92;&quot;,&#92;&quot;Number of Customers&#92;&quot;:59,&#92;&quot;total_revenue&#92;&quot;:2328.6,&#92;&quot;Revenue Share Percentage&#92;&quot;:100.0}]&quot;' data-total-rows='2' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;customer_type&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;Number of Customers&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Revenue Share Percentage&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -163,12 +254,25 @@
     },
     {
       "id": "Hstk",
-      "code_hash": "43554f87f3f51b2376e35070559bae07",
+      "code_hash": "ea3fc6cb99fea663721765dbf9ca59fe",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">CATALOGUE</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"catalogue\">CATALOGUE</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "VeFR",
+      "code_hash": "7aa0075d235fa9f92119465b056e84d6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-revenue-per-genre-and-the-number-of-tracks-sold\">This table shows the revenue per genre and the number of tracks sold.</h3></span>"
           }
         }
       ],
@@ -176,12 +280,38 @@
     },
     {
       "id": "nWHF",
-      "code_hash": "7cbdf8c9e4e64e78e1ce98218f03d5c3",
+      "code_hash": "6650dcc0bcfcbddbc62f56733da70fe1",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='nWHF-0' random-id='ec154a4c-166f-8ff8-e0c9-63d3f6ec27dc'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;revenue&#92;&quot;:826.65,&#92;&quot;n_tracks&#92;&quot;:835},{&#92;&quot;name&#92;&quot;:&#92;&quot;Latin&#92;&quot;,&#92;&quot;revenue&#92;&quot;:382.14,&#92;&quot;n_tracks&#92;&quot;:386},{&#92;&quot;name&#92;&quot;:&#92;&quot;Metal&#92;&quot;,&#92;&quot;revenue&#92;&quot;:261.36,&#92;&quot;n_tracks&#92;&quot;:264},{&#92;&quot;name&#92;&quot;:&#92;&quot;Alternative &amp; Punk&#92;&quot;,&#92;&quot;revenue&#92;&quot;:241.56,&#92;&quot;n_tracks&#92;&quot;:244},{&#92;&quot;name&#92;&quot;:&#92;&quot;TV Shows&#92;&quot;,&#92;&quot;revenue&#92;&quot;:93.53,&#92;&quot;n_tracks&#92;&quot;:47},{&#92;&quot;name&#92;&quot;:&#92;&quot;Jazz&#92;&quot;,&#92;&quot;revenue&#92;&quot;:79.2,&#92;&quot;n_tracks&#92;&quot;:80},{&#92;&quot;name&#92;&quot;:&#92;&quot;Blues&#92;&quot;,&#92;&quot;revenue&#92;&quot;:60.39,&#92;&quot;n_tracks&#92;&quot;:61},{&#92;&quot;name&#92;&quot;:&#92;&quot;Drama&#92;&quot;,&#92;&quot;revenue&#92;&quot;:57.71,&#92;&quot;n_tracks&#92;&quot;:29},{&#92;&quot;name&#92;&quot;:&#92;&quot;R&amp;B/Soul&#92;&quot;,&#92;&quot;revenue&#92;&quot;:40.59,&#92;&quot;n_tracks&#92;&quot;:41},{&#92;&quot;name&#92;&quot;:&#92;&quot;Classical&#92;&quot;,&#92;&quot;revenue&#92;&quot;:40.59,&#92;&quot;n_tracks&#92;&quot;:41}]&quot;' data-total-rows='24' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;n_tracks&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='nWHF-0' random-id='88350d74-7bc7-c2ce-e15b-b436f4ddc273'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;revenue&#92;&quot;:826.65,&#92;&quot;Number of Tracks Sold&#92;&quot;:835},{&#92;&quot;Genre&#92;&quot;:&#92;&quot;Latin&#92;&quot;,&#92;&quot;revenue&#92;&quot;:382.14,&#92;&quot;Number of Tracks Sold&#92;&quot;:386},{&#92;&quot;Genre&#92;&quot;:&#92;&quot;Metal&#92;&quot;,&#92;&quot;revenue&#92;&quot;:261.36,&#92;&quot;Number of Tracks Sold&#92;&quot;:264},{&#92;&quot;Genre&#92;&quot;:&#92;&quot;Alternative &amp; Punk&#92;&quot;,&#92;&quot;revenue&#92;&quot;:241.56,&#92;&quot;Number of Tracks Sold&#92;&quot;:244},{&#92;&quot;Genre&#92;&quot;:&#92;&quot;TV Shows&#92;&quot;,&#92;&quot;revenue&#92;&quot;:93.53,&#92;&quot;Number of Tracks Sold&#92;&quot;:47},{&#92;&quot;Genre&#92;&quot;:&#92;&quot;Jazz&#92;&quot;,&#92;&quot;revenue&#92;&quot;:79.2,&#92;&quot;Number of Tracks Sold&#92;&quot;:80},{&#92;&quot;Genre&#92;&quot;:&#92;&quot;Blues&#92;&quot;,&#92;&quot;revenue&#92;&quot;:60.39,&#92;&quot;Number of Tracks Sold&#92;&quot;:61},{&#92;&quot;Genre&#92;&quot;:&#92;&quot;Drama&#92;&quot;,&#92;&quot;revenue&#92;&quot;:57.71,&#92;&quot;Number of Tracks Sold&#92;&quot;:29},{&#92;&quot;Genre&#92;&quot;:&#92;&quot;R&amp;B/Soul&#92;&quot;,&#92;&quot;revenue&#92;&quot;:40.59,&#92;&quot;Number of Tracks Sold&#92;&quot;:41},{&#92;&quot;Genre&#92;&quot;:&#92;&quot;Classical&#92;&quot;,&#92;&quot;revenue&#92;&quot;:40.59,&#92;&quot;Number of Tracks Sold&#92;&quot;:41}]&quot;' data-total-rows='24' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;Genre&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Number of Tracks Sold&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "LrZh",
+      "code_hash": "5abfc8eff3c323b0a306ee6e39fbea44",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lNvu",
+      "code_hash": "1da3db2ad0f9c96f031ded84b992d95b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-top-5-best-selling-artists\">This table shows the top 5 best selling artists.</h3></span><marimo-ui-element object-id='LrZh-0' random-id='04c82c94-7db3-4fd2-7f62-1dad83b162c9'><marimo-slider data-initial-value='10' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eNumber of artists to show: &#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='1' data-stop='50' data-step='1' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div>"
           }
         }
       ],
@@ -189,12 +319,25 @@
     },
     {
       "id": "iLit",
-      "code_hash": "1390c149b736709d43aa7667699b7a54",
+      "code_hash": "d6fddaf2cf36bed0362c875fa9352496",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='iLit-0' random-id='60bfab14-3241-20ee-5aac-22e93f627f7a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;Iron Maiden&#92;&quot;,&#92;&quot;revenue&#92;&quot;:138.6},{&#92;&quot;name&#92;&quot;:&#92;&quot;U2&#92;&quot;,&#92;&quot;revenue&#92;&quot;:105.93},{&#92;&quot;name&#92;&quot;:&#92;&quot;Metallica&#92;&quot;,&#92;&quot;revenue&#92;&quot;:90.09},{&#92;&quot;name&#92;&quot;:&#92;&quot;Led Zeppelin&#92;&quot;,&#92;&quot;revenue&#92;&quot;:86.13},{&#92;&quot;name&#92;&quot;:&#92;&quot;Lost&#92;&quot;,&#92;&quot;revenue&#92;&quot;:81.59},{&#92;&quot;name&#92;&quot;:&#92;&quot;The Office&#92;&quot;,&#92;&quot;revenue&#92;&quot;:49.75},{&#92;&quot;name&#92;&quot;:&#92;&quot;Os Paralamas Do Sucesso&#92;&quot;,&#92;&quot;revenue&#92;&quot;:44.55},{&#92;&quot;name&#92;&quot;:&#92;&quot;Deep Purple&#92;&quot;,&#92;&quot;revenue&#92;&quot;:43.56},{&#92;&quot;name&#92;&quot;:&#92;&quot;Faith No More&#92;&quot;,&#92;&quot;revenue&#92;&quot;:41.58},{&#92;&quot;name&#92;&quot;:&#92;&quot;Eric Clapton&#92;&quot;,&#92;&quot;revenue&#92;&quot;:39.6}]&quot;' data-total-rows='10' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='iLit-0' random-id='1c7f7e9f-53f6-2485-06e1-82e47321159f'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Artists&#92;&quot;:&#92;&quot;Iron Maiden&#92;&quot;,&#92;&quot;revenue&#92;&quot;:138.6},{&#92;&quot;Artists&#92;&quot;:&#92;&quot;U2&#92;&quot;,&#92;&quot;revenue&#92;&quot;:105.93},{&#92;&quot;Artists&#92;&quot;:&#92;&quot;Metallica&#92;&quot;,&#92;&quot;revenue&#92;&quot;:90.09},{&#92;&quot;Artists&#92;&quot;:&#92;&quot;Led Zeppelin&#92;&quot;,&#92;&quot;revenue&#92;&quot;:86.13},{&#92;&quot;Artists&#92;&quot;:&#92;&quot;Lost&#92;&quot;,&#92;&quot;revenue&#92;&quot;:81.59}]&quot;' data-total-rows='5' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Artists&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZAPZ",
+      "code_hash": "8acf77ebfcaf3b8635d4c926b33b7620",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-artists-that-never-sold-a-single-track-and-that-tracks-name\">This table shows artists that never sold a single track and that track's name.</h3></span>"
           }
         }
       ],
@@ -207,7 +350,20 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='ZHCJ-0' random-id='26ca5218-49a5-9726-762b-00b7447fafa7'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;Battlestar Galactica&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Battlestar Galactica: The Story So Far&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Cake&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Cake: B-Sides and Rarities&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Aisha Duo&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Quiet Songs&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Karsh Kale&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Realize&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Aaron Goldberg&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Worlds&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Nicolaus Esterhazy Sinfonia&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;The Best of Beethoven&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Alberto Turco &amp; Nova Schola Gregoriana&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Adorate Deum: Gregorian Chant from the Proper of the Mass&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Richard Marlow &amp; The Choir of Trinity College, Cambridge&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Allegri: Miserere&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Anne-Sophie Mutter, Herbert Von Karajan &amp; Wiener Philharmoniker&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Vivaldi: The Four Seasons&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Hilary Hahn, Jeffrey Kahane, Los Angeles Chamber Orchestra &amp; Margaret Batjer&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Bach: Violin Concertos&#92;&quot;}]&quot;' data-total-rows='43' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;title&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='ZHCJ-0' random-id='12d6c1e4-82c1-042a-94a6-b471f2f9f30c'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;name&#92;&quot;:&#92;&quot;Battlestar Galactica&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Battlestar Galactica: The Story So Far&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Cake&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Cake: B-Sides and Rarities&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Aisha Duo&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Quiet Songs&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Karsh Kale&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Realize&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Aaron Goldberg&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Worlds&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Nicolaus Esterhazy Sinfonia&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;The Best of Beethoven&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Alberto Turco &amp; Nova Schola Gregoriana&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Adorate Deum: Gregorian Chant from the Proper of the Mass&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Richard Marlow &amp; The Choir of Trinity College, Cambridge&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Allegri: Miserere&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Anne-Sophie Mutter, Herbert Von Karajan &amp; Wiener Philharmoniker&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Vivaldi: The Four Seasons&#92;&quot;},{&#92;&quot;name&#92;&quot;:&#92;&quot;Hilary Hahn, Jeffrey Kahane, Los Angeles Chamber Orchestra &amp; Margaret Batjer&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Bach: Violin Concertos&#92;&quot;}]&quot;' data-total-rows='43' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;title&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "gURv",
+      "code_hash": "7ec4b613220ff26df2ea1e25217eac03",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-best-selling-track-of-each-genre-and-the-revenue-each-track-made\">This table shows the best selling track of each genre and the revenue each track made.</h3></span>"
           }
         }
       ],
@@ -220,7 +376,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='ROlb-0' random-id='ee11dc37-31e9-d4df-452e-d702a2848586'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;genre&#92;&quot;:&#92;&quot;Science Fiction&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;The Woman King&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Comedy&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Phyllis&#x27;s Wedding&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Drama&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;How to Stop an Exploding Man&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;TV Shows&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Walkabout&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Eruption&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.96},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Metal&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Where Eagles Dare&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:2.97},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Latin&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Selvagem&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:2.97},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Alternative &amp; Punk&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Release&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:2.97},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Sci Fi &amp; Fantasy&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;The Magnificent Warriors&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:1.99},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Hip Hop/Rap&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Nega Do Cabelo Duro&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:1.98}]&quot;' data-total-rows='24' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;genre&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;track_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='ROlb-0' random-id='1fdf4ef1-4c13-dfe9-49cc-ec598fd01374'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;genre&#92;&quot;:&#92;&quot;Science Fiction&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;The Woman King&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Comedy&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Phyllis&#x27;s Wedding&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Drama&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;How to Stop an Exploding Man&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;TV Shows&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Walkabout&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.98},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Rock&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Eruption&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:3.96},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Metal&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Where Eagles Dare&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:2.97},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Latin&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Selvagem&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:2.97},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Alternative &amp; Punk&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Release&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:2.97},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Sci Fi &amp; Fantasy&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;The Magnificent Warriors&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:1.99},{&#92;&quot;genre&#92;&quot;:&#92;&quot;Hip Hop/Rap&#92;&quot;,&#92;&quot;track_name&#92;&quot;:&#92;&quot;Nega Do Cabelo Duro&#92;&quot;,&#92;&quot;total_revenue&#92;&quot;:1.98}]&quot;' data-total-rows='24' data-total-columns='3' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;genre&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;track_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -228,7 +384,46 @@
     },
     {
       "id": "fXpj",
-      "code_hash": null,
+      "code_hash": "698e2840d50225edcee40dd7b042f551",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"sales-team\">SALES TEAM</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "EFeX",
+      "code_hash": "5930c90de7bd26d10eefaa17711e2c25",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"this-table-shows-the-revenue-per-support-rep-per-year\">This table shows the revenue per support rep per year.</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "mcSN",
+      "code_hash": "517cdfe92cfa918aee1aee35036a27aa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='mcSN-0' random-id='caabc9ce-f207-cbb7-a301-869754edd500'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2021.0,&#92;&quot;total_revenue&#92;&quot;:164.34,&#92;&quot;rank_per_year&#92;&quot;:1},{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Margaret Park&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2021.0,&#92;&quot;total_revenue&#92;&quot;:161.37,&#92;&quot;rank_per_year&#92;&quot;:2},{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2021.0,&#92;&quot;total_revenue&#92;&quot;:123.75,&#92;&quot;rank_per_year&#92;&quot;:3},{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2022.0,&#92;&quot;total_revenue&#92;&quot;:221.92,&#92;&quot;rank_per_year&#92;&quot;:1},{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2022.0,&#92;&quot;total_revenue&#92;&quot;:136.77,&#92;&quot;rank_per_year&#92;&quot;:2},{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Margaret Park&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2022.0,&#92;&quot;total_revenue&#92;&quot;:122.76,&#92;&quot;rank_per_year&#92;&quot;:3},{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Jane Peacock&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2023.0,&#92;&quot;total_revenue&#92;&quot;:184.34,&#92;&quot;rank_per_year&#92;&quot;:1},{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Steve Johnson&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2023.0,&#92;&quot;total_revenue&#92;&quot;:159.47,&#92;&quot;rank_per_year&#92;&quot;:2},{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Margaret Park&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2023.0,&#92;&quot;total_revenue&#92;&quot;:125.77,&#92;&quot;rank_per_year&#92;&quot;:3},{&#92;&quot;support_rep_name&#92;&quot;:&#92;&quot;Margaret Park&#92;&quot;,&#92;&quot;sales_year&#92;&quot;:2024.0,&#92;&quot;total_revenue&#92;&quot;:197.2,&#92;&quot;rank_per_year&#92;&quot;:1}]&quot;' data-total-rows='15' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;support_rep_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;sales_year&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;total_revenue&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;rank_per_year&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "cf18724283cd79aeb93925ce70244fb4",
       "outputs": [
         {
           "type": "data",
@@ -240,21 +435,34 @@
       "console": []
     },
     {
-      "id": "qnkX",
-      "code_hash": "96af9d64eee22e599dc2fd29ee6175c4",
+      "id": "pnsQ",
+      "code_hash": "68f12d4a932d84e6d743af3d6c4c4555",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">ACCEPTANCE</span>\n<span class=\"paragraph\">How much has the store sold, in total and per year? Is it growing?</span>\n<span class=\"paragraph\">Which countries and which customers matter most?</span>\n<span class=\"paragraph\">Which genres and artists sell, and which never do?</span>\n<span class=\"paragraph\">How is the sales team doing?</span></span>"
+            "text/plain": ""
           }
         }
       ],
       "console": []
     },
     {
-      "id": "TqIu",
-      "code_hash": null,
+      "id": "MJUe",
+      "code_hash": "90ae0a705920feca66b6fd55b6d7786e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zwFc",
+      "code_hash": "7fb85cb9e677e191b5a740045abfacbc",
       "outputs": [
         {
           "type": "data",
